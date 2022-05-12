@@ -1,0 +1,32 @@
+
+<ion-content >
+  <div id="targeta" class="box box3">
+    <apx-chart id="chart"
+      [chart]="areaOptions.chart"
+      [series]="areaOptions.series"
+      [stroke]="areaOptions.stroke"
+      [xaxis]="areaOptions.xaxis"
+      [title]="areaOptions.title"
+      [subtitle]="areaOptions.subtitle"
+      [fill]="areaOptions.fill"
+      [tooltip]="areaOptions.tooltip"
+      [colors]="areaOptions.colors"
+    ></apx-chart>
+  </div>
+  <br>
+  <div>
+    <ion-button shape="round" expand="full" color="tertiary" (click)="mostrarECG()">
+      Mostrar ECG
+    </ion-button>
+    <br>
+    <div class="botones">
+      <button class="boton" (click)="regresar()">
+        Regresar
+      </button>
+      <button class="boton" (click)="inicio()">
+        Ir A Inicio
+      </button>
+    </div>
+  </div>
+
+</ion-content>

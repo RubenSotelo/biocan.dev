@@ -1,0 +1,49 @@
+.main{
+    background-color: cornflowerblue;
+}
+.contenedor{
+    background-color: transparent;
+    text-align: center;
+    margin: 10px;
+}
+.item-inicial{
+    --background: rgba(0, 0, 0, 0.5);
+    --border-color: rgba(0, 0, 0, 0.5);
+    --border-radius:  17px 17px 0 0;
+}
+.item{
+    --background: rgba(0, 0, 0, 0.5);
+    --border-color: rgba(0, 0, 0, 0.5);
+}
+.item-final{
+    --background: rgba(0, 0, 0, 0.5);
+    --border-color: rgba(0, 0, 0, 0.5);
+    --border-radius:  0 0 17px 17px;
+}
+.boton-buscar{
+    background-color: turquoise;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton-eliminar{
+    background-color: tomato;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton-estado{
+    background-color: dodgerblue;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 40px;
+    width: 320px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

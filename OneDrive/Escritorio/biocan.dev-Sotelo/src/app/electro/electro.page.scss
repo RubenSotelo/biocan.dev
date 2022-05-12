@@ -1,0 +1,26 @@
+.botones{
+  display: flex;
+  justify-content: center;
+}
+.box3 {
+  margin: 20px;
+  padding: 25px 20px;
+  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+  background-color: #2b2d3e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px 1px #666;
+  position: relative;
+  border-radius: 5px;
+  padding: 0;
+  padding-top: 10px;
+}
+.boton{
+  background-color: cornflowerblue;
+  border-radius: 30px;
+  font-size: 20px;
+  height: 40px;
+  width: 120px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
