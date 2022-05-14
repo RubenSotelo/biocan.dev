@@ -1,0 +1,23 @@
+.items{
+    background-color: transparent;
+    border-radius: 17px 17px 0 0
+}
+
+.formulario{
+    background-color: aquamarine;
+}
+
+.item-inicial{
+    --background: rgba(0, 0, 0, 0.5);
+    --border-color: rgba(0, 0, 0, 0.5);
+    --border-radius:  17px 17px 0 0;
+}
+.item{
+    --background: rgba(0, 0, 0, 0.5);
+    --border-color: rgba(0, 0, 0, 0.5);
+}
+.item-final{
+    --background: rgba(0, 0, 0, 0.5);
+    --border-color: rgba(0, 0, 0, 0.5);
+    --border-radius:  0 0 17px 17px;
+}

@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>search</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid class="main">
+      <ion-row class="ion-align-items-center ion-justify-content-center">
+        <ion-col size="12" sizeMd="6" sizeLg="4">
+          <div class="contenedor">
+            <ion-row>
+              <ion-col>
+                  <ion-img src="../../assets/icon/views/register.svg" alt="Registro de usuarios" style="margin: 0 auto; max-width: 300px; height: auto;"></ion-img>
+              </ion-col>
+            </ion-row>
+            <ion-row class="ion-align-items-center ion-justify-content-center">
+              <ion-col size="12" >
+                    <h1>Una aplicacion dónde tendras a tu mascota vigilada y segura!</h1>
+                </ion-col>
+            </ion-row>
+            <form class="formulario" [formGroup]="registroForm">
+              <ion-item class="item-inicial">
+                <ion-label position="stacked">Nombre del medico tratante</ion-label>
+                <ion-input formControlName="medico"></ion-input>
+              </ion-item>
+              <ion-item class="item">
+                <ion-label position="stacked">Nombre del propietario</ion-label>
+                <ion-input formControlName="propietario"></ion-input>
+            </ion-item>
+              <ion-item class="item">
+                  <ion-label position="stacked" >Nombre</ion-label>
+                  <ion-input formControlName="nombre"></ion-input>
+              </ion-item>
+              <ion-item class="item">
+                  <ion-label position="stacked">Edad</ion-label>
+                  <ion-input formControlName="edad"></ion-input>
+              </ion-item>
+              <ion-item class="item">
+                  <ion-label position="stacked">Peso</ion-label>
+                  <ion-input formControlName="peso"></ion-input>
+              </ion-item>
+              <ion-item class="item">
+                  <ion-label position="stacked">ingreso</ion-label>
+                  <ion-input formControlName="ingreso"></ion-input>
+              </ion-item>
+              <ion-item class="item-final">
+                  <ion-label position="stacked">Sexo</ion-label>
+                  <ion-select interface="popover" placeholder="Elige un sexo" formControlName="sexo">
+                      <ion-select-option value="femenino">Hembra</ion-select-option>
+                      <ion-select-option value="masculino">Macho</ion-select-option>
+                  </ion-select>
+              </ion-item>
+            </form>
+            <br>
+            <button type="submit" class="boton-buscar" (click)="actualizar()">
+              Buscar
+            </button>
+            <button class="boton-eliminar" (click)="eliminar()">
+              Eliminar
+            </button>
+            <br>
+            <button (click)="estado()" class="boton-estado">
+              Ver Estado
+            </button>
+          </div>
+        </ion-col>
+      </ion-row>
+  </ion-grid>
+</ion-content>
