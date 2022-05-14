@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "biocan-dev",
+    "private_key_id": "b576df88fcb8d1bcd7ca004d1a212bcfbfc3276a",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWQ9gCkda3pdul\nyHDehkJ0CkpwvjWiPEU1uTbjn5LnIPWcCPZmFX25+2hKUMv1RMeisjVCTmLjXv4H\njf5UHZatSIwP70YTSHpJoX3avPP5jctTT81gMRvjYB8RkixA2NpMxRKpaE5q4kWQ\nLyhm5dqIrOc/BtWgxSxgk4gAajpIBUOjnVeeGs5EInjYtpo/JzHuAIgMii2xyf9Q\nzXYIjlbbFgPYTQWfRq0EXFeQOG3SVee+J3EHpHWQ0jVr0FQ3/evr+xrLGwC/rzTy\nDYmCqKeRw8uxdEFKpgsRITQ2HuONukd+BAxse6a+rhH8JNUKvP8JFosoV3xtucR3\nMtSEIWXTAgMBAAECggEAO7Y8hLrP8+4tAE6T5e/UpTIY/MKFf+j8ALTVLypRbkgp\nKor04A4tM590uQE7VecNG7I+VXQy6tqWQNS5hAea7j/BiM9N4CHasppm0IbIF0wE\n1frvaVdGRl+LSQJLgubsL2jcgomnEPJuIHiD8ekstdo5t77X2i4Y5/E1fagdBeSu\nsHr8RT/x8bcAIwiuiJozWGegz+yB0e0fkESs4hnuzvgUVo1q5b8bsGQ0aJ/V+Xxt\n/fvUCoYA8xzTRKnKFoxKbqp5N4A06HKzj0xGYU2cwtHROHNr/CVY6GWHk2Rhw3ZB\nkd2pSs+nYuqTttD5Qwwl+lLS22b4xy3rFflF665sAQKBgQD+ZoKWf4osN6Ri9lho\nVTCGCNiQeW+aZ02Qp3Q5TcFE6rns7gbw2MHC/vLTEUZNjjmfvU/PEijt7vOXuEWD\ndExYtE8xtHARDeud0D/YwPw7InSwRWcq0gNAgqz//LJsindK3lhnwDwsRpqIoT4s\nNIh+x3sX9z3lBjUHbPCPGELCQQKBgQDXnLsJx0QrY36exTOsroXPZ6MvMu5e1ah6\nzvdF1GJOemlGXdvCM3wJFstXr+N0y8IFeXjaDHDwzCzLp7KHM0nzRi4ZRzOQmKbT\n/gkKm/DaGFBIsSwWJBGevngEVJ3X5eHrzVHHw47zM0+ou5sxW8q+vGG9rE8FNWnL\nc2Dw6mg7EwKBgHoSCEFc65kyDeAqottVXVZDcl9I1eN6BD8QCvXgOIfwNczZnlz9\nNWRy32OmG1zljQL4XQ5YgWlCSoKXuktMh8Hcq0+HbGrSiieMoMZKO/3IF8PpWYqz\ngTn4OjkPMTJh8sHrFPKbzIPWURqUfHfLsV9cKtWiHoIBy3pHrNqM4qPBAoGBAKEU\n5N+fUZygzn5LkhmWoT2cjdu7Tz7mnOJzMWWoEHHVHkWF5aKm2CnqL6ypKWOevqtc\nXx94YABmaakU9lnvxXXMnrAf87Q5d5m1loeojT5DH+fPBcLc25Ufc4a4uNwNUMXc\nNRbrUSb81KyYzI8JpuTs1JDh5H9dslZfMrOKTKilAoGBAMuFJT/rEc5UfhsLmDw+\naXZOfezfSBjF+Q+66hPCIqlI8tygOeWjafcPPOaqE0FFPNhI312F6I8lAGQCKegS\nAbNzOMaPF1MPm3NbTD8S5qywf2/1GcVisCUKY7sst66qMENjRgy5ytJd1gOoLevL\n3cgbI0htHpWkpyH5wboXp5+R\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-v5zrf@biocan-dev.iam.gserviceaccount.com",
+    "client_id": "107434130216754319041",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-v5zrf%40biocan-dev.iam.gserviceaccount.com"
+}
